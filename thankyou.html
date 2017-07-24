@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>PRINTZ</title>
+
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- CSS -->
+      <link rel="stylesheet" type="text/css" href="assets/styles/index.css">
+
+      <script src='http://connect.facebook.net/en_US/all.js'></script>
+
+    </head>
+    <body class="container-fluid">
+      <div class="bg">
+        <ul class="fbinsta">
+          <li><a href="https://www.facebook.com/printzdesigns/" target="_blank"><img class="fb" src="./assets/styles/images/facebook_logo.png" alt=""/></a>
+          </li>
+          <li><a href="https://www.instagram.com/printzdesigns/" target="_blank"><img class="fb" src="./assets/styles/images/instagram-logo.png" alt=""/></a>
+          </li>
+        </ul>
+        <div class="logos">
+          <img alt="" class="logo" src="./assets/styles/images/printzlogo.png">
+          <img alt="" class="tagline" src="./assets/styles/images/Tagline.png">
+        </div>
+        <div class="whitebox">
+          <p class="thanks">Thank you for joining the Printz pre-launch list.</p>
+          <p class="update">
+             We'll be sure to send you an update as soon as<br>
+             possible so that you can start putting together<br>  your design.
+             In the meantime, let your<br> friends know so they can join too!
+             <br><br><br>
+          </p>
+
+          <p class="sneakpeak">
+            Can't wait to bring design to your space?<br>
+          </p>
+          <p>
+            Share with three friends to enter into a contest<br> to win a free
+            design board of one of your rooms
+          </p>
+          <div class="invite">
+            <span class='MBT-FB'>
+              <a href='#' onclick='FacebookInviteFriends();'>Facebook Connect</a>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        FB.init ({
+          appId:'1892907664308268',
+          cookie:true,
+          status:true,
+          xfbml:true
+        });
+        function FacebookInviteFriends () {
+          FB.ui ({
+            method: 'apprequests',
+            message: 'Invite your friends'
+          });
+        }
+      </script>
+
+      <script type='text/javascript'>
+        if (top.location != self.location) {
+          top.location = self.location
+        }
+      </script>
+
+    </body>
+</html>
