@@ -52,10 +52,10 @@ li {
 .whitebox {
   background-color: #fff;
   border: 1px solid #fff;
-  height: 320px;
+  height: 350px;
   margin: auto;
   margin-top: 50px;
-  opacity: .90;
+  opacity: .80;
   width: 500px;
 }
 
