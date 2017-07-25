@@ -1,12 +1,11 @@
 body,
 html {
   height: 100%;
-  /*margin-left: -100px;*/
   margin: 0;
 }
 
 p {
-  font: 15px 'Gotham', sans-serif;
+  font: 14px 'Gotham', sans-serif;
   line-height: 150%;
   color: #464747;
 }
@@ -36,13 +35,13 @@ li {
 }
 
 .logo {
-  margin-top: 60px;
+  margin-top: 70px;
   height: 50px;
   width: 250px;
 }
 
 .tagline {
-  padding-top: 30px;
+  padding-top: 20px;
   display: block;
   height: 30px;
   margin: auto;
@@ -55,13 +54,13 @@ li {
   height: 350px;
   margin: auto;
   margin-top: 50px;
-  opacity: .80;
+  opacity: .85;
   width: 500px;
 }
 
 .intro {
   color: #000;
-  margin-top: 20px;
+  margin-top: 35px;
 }
 
 .sneakpeak {
@@ -107,12 +106,13 @@ li {
 }
 
 .fb-button {
-  /*height: 35px;*/
+  height: 40px;
   width: 135px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 #mce-EMAIL {
-  /*background-color: #464747;*/
   border: solid 1px #ccc;
   color: #999;
   font-size: 15px;
