@@ -1,12 +1,3 @@
-$icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
-@import '~bootstrap-sass/assets/stylesheets/bootstrap';
-
-/*$black: #000;*/
-/*$white: #fff;*/
-/*$clear: #ccc;*/
-/*$grey: #999;*/
-/*$transparent: rgba(0, 0, 0, 0);*/
-
 body,
 html {
   height: 100%;
@@ -14,18 +5,23 @@ html {
 }
 
 p {
-  font: 14px 'Helvetica Neue', sans-serif;
+  font: 15px 'Gotham', sans-serif;
+  line-height: 150%;
   color: #464747;
-  /*line-height: 200%;*/
 }
 
 .bg {
-  background: url('./images/AdobeStock_955581691.jpg') center center;
+  background: url('./images/Background_Gradient.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
   text-align: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  position: relative;
+  background-size:100% 100vh;
 }
 
 ul {
@@ -38,15 +34,17 @@ li {
 }
 
 .logo {
-  height: 100px;
+  margin-top: 60px;
+  height: 80px;
   width: 500px;
 }
 
 .tagline {
+  padding-top: 10px;
   display: block;
-  height: 20px;
+  height: 25px;
   margin: auto;
-  width: 300px;
+  width: 320px;
 }
 
 .whitebox {
@@ -55,7 +53,7 @@ li {
   height: 350px;
   margin: auto;
   margin-top: 10px;
-  opacity: .90;
+  opacity: .73;
   width: 500px;
 }
 
@@ -65,12 +63,12 @@ li {
 }
 
 .sneakpeak {
-  font-size: 17px;
+  font-size: 16px;
   font-weight: bold;
 }
 
 .thanks {
-  font-size: 17px;
+  font-size: 16px;
   font-weight: bold;
   margin-top: 20px;
 }
@@ -93,352 +91,42 @@ li {
 
 .fbinsta {
   background: rgba(0, 0, 0, 0);
+  width: 100px;
+  position: absolute;
+  right: 10px;
   text-align: right;
 }
 
 .button {
-  background-color: #000;
-  border: solid 1px #ccc;
   border-radius: 50%;
-  color: #fff;
-  font-size: 30px;
-  font-weight: bold;
   height: 35px;
-  text-align: center;
   vertical-align: middle;
   width: 35px;
 }
 
+.fb-button {
+  /*height: 35px;*/
+  width: 135px;
+}
+
 #mce-EMAIL {
-  /*background-color: #000;*/
+  /*background-color: #464747;*/
   border: solid 1px #ccc;
   color: #999;
   font-size: 15px;
   height: 32px;
   padding-left: 5px;
   vertical-align: bottom;
-  width: 250px;
+  width: 265px;
 }
 
-input:not(:valid) {
-  background-color: #000;
+input[type=email]:not(:valid) {
+  background-color: #464747;
 }
-input:valid {
+input[type=email]:valid {
   background-color: #678158;
 }
 
 #mc_embed_signup_scroll {
   vertical-align: top;
-}
-
-.MBT-FB a {
-  font-family: tahoma, verdana, arial, sans-serif !important;
-  font-weight:bold !important;
-  font-size:12px !important;
-  width:150px !important;
-  border:solid #29447e 1px !important;
-  border-bottom:solid #29447e 1px !important;
-  cursor:pointer !important;
-  padding:6px 6px 6px 6px !important;
-  background-color:#5c75a9 !important;
-  border-top:solid #8a9cc2 1px !important;
-  text-align:center !important;
-  color:#fff !important;
-  text-decoration:none  ! important;
- }
-
- .MBT-FB a:active {
-  background-color:#4f6aa3 !important;
- }
-
-@media (max-width: 500px) {
-  body,
-  html {
-    height: 100%;
-    margin: 0;
-  }
-
-  p {
-    font: 14px 'Helvetica Neue', sans-serif;
-    color: #464747;
-    /*line-height: 200%;*/
-  }
-
-  .bg {
-    background: url('./images/AdobeStock_955581691.jpg') center center;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    text-align: center;
-  }
-
-  ul {
-    padding-right: 10px;
-    padding-top: 10px;
-  }
-
-  li {
-    display: inline;
-  }
-
-  .logo {
-    height: 100px;
-    width: 500px;
-  }
-
-  .tagline {
-    display: block;
-    height: 20px;
-    margin: auto;
-    width: 300px;
-  }
-
-  .whitebox {
-    background-color: #fff;
-    border: 1px solid #fff;
-    height: 350px;
-    margin: auto;
-    margin-top: 10px;
-    opacity: .90;
-    width: 500px;
-  }
-
-  .intro {
-    color: #000;
-    margin-top: 10px;
-  }
-
-  .sneakpeak {
-    font-size: 17px;
-    font-weight: bold;
-  }
-
-  .thanks {
-    font-size: 17px;
-    font-weight: bold;
-    margin-top: 20px;
-  }
-
-  .invite {
-    padding: 20px;
-  }
-
-  .social {
-    display: inline;
-    height: 30px;
-    padding: 0 10px;
-    width: 150px;
-  }
-
-  .fb {
-    height: 40px;
-    width: 40px;
-  }
-
-  .fbinsta {
-    background: rgba(0, 0, 0, 0);
-    text-align: right;
-  }
-
-  .button {
-    background-color: #000;
-    border: solid 1px #ccc;
-    border-radius: 50%;
-    color: #fff;
-    font-size: 30px;
-    font-weight: bold;
-    height: 35px;
-    text-align: center;
-    vertical-align: middle;
-    width: 35px;
-  }
-
-  #mce-EMAIL {
-    /*background-color: #000;*/
-    border: solid 1px #ccc;
-    color: #999;
-    font-size: 15px;
-    height: 32px;
-    padding-left: 5px;
-    vertical-align: bottom;
-    width: 250px;
-  }
-
-  input:not(:valid) {
-    background-color: #000;
-  }
-  input:valid {
-    background-color: #678158;
-  }
-
-  #mc_embed_signup_scroll {
-    vertical-align: top;
-  }
-
-  .MBT-FB a {
-    font-family: tahoma, verdana, arial, sans-serif !important;
-    font-weight:bold !important;
-    font-size:12px !important;
-    width:150px !important;
-    border:solid #29447e 1px !important;
-    border-bottom:solid #29447e 1px !important;
-    cursor:pointer !important;
-    padding:6px 6px 6px 6px !important;
-    background-color:#5c75a9 !important;
-    border-top:solid #8a9cc2 1px !important;
-    text-align:center !important;
-    color:#fff !important;
-    text-decoration:none  ! important;
-   }
-
-   .MBT-FB a:active {
-    background-color:#4f6aa3 !important;
-   }
-}
-
-@media (max-width: 1024px) {
-  body,
-  html {
-    height: 100%;
-    margin: 0;
-  }
-
-  p {
-    font: 14px 'Helvetica Neue', sans-serif;
-    color: #464747;
-    /*line-height: 200%;*/
-  }
-
-  .bg {
-    background: url('./images/AdobeStock_955581691.jpg') center center;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    text-align: center;
-  }
-
-  ul {
-    padding-right: 10px;
-    padding-top: 10px;
-  }
-
-  li {
-    display: inline;
-  }
-
-  .logo {
-    height: 100px;
-    width: 500px;
-  }
-
-  .tagline {
-    display: block;
-    height: 20px;
-    margin: auto;
-    width: 300px;
-  }
-
-  .whitebox {
-    background-color: #fff;
-    border: 1px solid #fff;
-    height: 350px;
-    margin: auto;
-    margin-top: 10px;
-    opacity: .90;
-    width: 500px;
-  }
-
-  .intro {
-    color: #000;
-    margin-top: 10px;
-  }
-
-  .sneakpeak {
-    font-size: 17px;
-    font-weight: bold;
-  }
-
-  .thanks {
-    font-size: 17px;
-    font-weight: bold;
-    margin-top: 20px;
-  }
-
-  .invite {
-    padding: 20px;
-  }
-
-  .social {
-    display: inline;
-    height: 30px;
-    padding: 0 10px;
-    width: 150px;
-  }
-
-  .fb {
-    height: 40px;
-    width: 40px;
-  }
-
-  .fbinsta {
-    background: rgba(0, 0, 0, 0);
-    text-align: right;
-  }
-
-  .button {
-    background-color: #000;
-    border: solid 1px #ccc;
-    border-radius: 50%;
-    color: #fff;
-    font-size: 30px;
-    font-weight: bold;
-    height: 35px;
-    text-align: center;
-    vertical-align: middle;
-    width: 35px;
-  }
-
-  #mce-EMAIL {
-    /*background-color: #000;*/
-    border: solid 1px #ccc;
-    color: #999;
-    font-size: 15px;
-    height: 32px;
-    padding-left: 5px;
-    vertical-align: bottom;
-    width: 250px;
-  }
-
-  input:not(:valid) {
-    background-color: #000;
-  }
-  input:valid {
-    background-color: #678158;
-  }
-
-  #mc_embed_signup_scroll {
-    vertical-align: top;
-  }
-
-  .MBT-FB a {
-    font-family: tahoma, verdana, arial, sans-serif !important;
-    font-weight:bold !important;
-    font-size:12px !important;
-    width:150px !important;
-    border:solid #29447e 1px !important;
-    border-bottom:solid #29447e 1px !important;
-    cursor:pointer !important;
-    padding:6px 6px 6px 6px !important;
-    background-color:#5c75a9 !important;
-    border-top:solid #8a9cc2 1px !important;
-    text-align:center !important;
-    color:#fff !important;
-    text-decoration:none  ! important;
-   }
-
-   .MBT-FB a:active {
-    background-color:#4f6aa3 !important;
-   }
 }
