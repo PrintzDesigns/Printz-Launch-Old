@@ -12,7 +12,7 @@ p {
 }
 
 .bg {
-  background: url('./images/Background_Gradient.png');
+  background: url('./images/Background-New.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -37,25 +37,25 @@ li {
 
 .logo {
   margin-top: 60px;
-  height: 80px;
-  width: 400px;
+  height: 50px;
+  width: 250px;
 }
 
 .tagline {
-  padding-top: 10px;
+  padding-top: 30px;
   display: block;
-  height: 25px;
+  height: 30px;
   margin: auto;
-  width: 290px;
+  width: 500px;
 }
 
 .whitebox {
   background-color: #fff;
   border: 1px solid #fff;
-  height: 350px;
+  height: 320px;
   margin: auto;
-  margin-top: 30px;
-  opacity: .73;
+  margin-top: 50px;
+  opacity: .90;
   width: 500px;
 }
 
@@ -87,8 +87,8 @@ li {
 }
 
 .fb {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
 }
 
 .fbinsta {
