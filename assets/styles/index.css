@@ -119,6 +119,13 @@ li {
   margin-left: 10px;
 }
 
+.invite-button {
+  height: 40px;
+  width: 135px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
 #mce-EMAIL {
   border: solid 1px #ccc;
   color: #999;
@@ -152,4 +159,39 @@ input[type=email]:valid + .signup-button {
 
 #mc_embed_signup_scroll {
   vertical-align: top;
+}
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    margin-top: 70px;
+    height: 50px;
+    width: 200px;
+  }
+
+  .tagline {
+    padding-top: 20px;
+    display: block;
+    height: 20px;
+    margin: auto;
+    width: 200px;
+  }
+
+  .whitebox {
+    background-color: #fff;
+    border: 1px solid #fff;
+    height: 400px;
+    margin: auto;
+    margin-top: 40px;
+    opacity: .85;
+    width: 300px;
+  }
+
+  #mce-EMAIL {
+    border: solid 1px #ccc;
+    color: #999;
+    font-size: 15px;
+    height: 32px;
+    padding-left: 5px;
+    vertical-align: bottom;
+  }
 }
