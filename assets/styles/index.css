@@ -36,8 +36,8 @@ li {
 
 .logo {
   margin-top: 70px;
-  height: 60px;
-  width: 300px;
+  height: 66px;
+  width: 330px;
 }
 
 .tagline {
@@ -53,13 +53,13 @@ li {
   border: 1px solid #fff;
   height: 350px;
   margin: auto;
-  margin-top: 40px;
+  margin-top: 50px;
   opacity: .85;
   width: 500px;
 }
 
 .intro {
-  color: #000;
+  color: #464747;
   margin-top: 35px;
 }
 
@@ -72,7 +72,6 @@ li {
 .designer-email {
   font-size: 16px;
   font-weight: bold;
-  /*margin-left: -30px;*/
 }
 
 .thanks {
@@ -222,7 +221,7 @@ input[type=email]:valid + .signup-button {
   }
 
   .intro {
-    color: #000;
+    color: #464747;
     margin-top: 25px;
   }
 
