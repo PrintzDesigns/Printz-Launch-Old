@@ -251,7 +251,7 @@ input[type=email]:valid + .signup-button {
     vertical-align: bottom;
   }
 }
-
+/*
 @media only screen and (max-width: 1024px) {
   .logo {
     margin-top: 70px;
@@ -287,4 +287,4 @@ input[type=email]:valid + .signup-button {
     line-height: 150%;
     color: #464747;
   }
-}
+}*/
