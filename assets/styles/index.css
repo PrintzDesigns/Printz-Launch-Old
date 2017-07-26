@@ -11,7 +11,7 @@ p {
 }
 
 .bg {
-  background: url('./images/Background-New.png');
+  background: url('./images/Background.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
