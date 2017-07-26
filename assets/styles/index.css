@@ -129,11 +129,25 @@ li {
   width: 245px;
 }
 
+.signup-button {
+    background: url("./images/button.png") center center;
+    border-radius: 50%;
+    display: inline;
+    height: 35px;
+    vertical-align: middle;
+    width: 35px;
+}
+
 input[type=email]:not(:valid) {
   background-color: #464747;
 }
+
 input[type=email]:valid {
   background-color: #678158;
+}
+
+input[type=email]:valid + .signup-button {
+  background: url('./images/green.png') center center;
 }
 
 #mc_embed_signup_scroll {
