@@ -61,23 +61,26 @@ li {
 .intro {
   color: #464747;
   margin-top: 35px;
+  text-align: justify;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
 .sneakpeak {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: bold;
-  margin-left: -30px;
 }
 
 .designer-email {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: bold;
+  margin-bottom: 50px;
 }
 
 .thanks {
   font-size: 16px;
   font-weight: bold;
-  margin-top: 20px;
+  margin-top: 100px;
 }
 
 .invite {
@@ -104,11 +107,27 @@ li {
   text-align: right;
 }
 
+.social {
+  /*background: rgba(0, 0, 0, 0);*/
+  /*width: 100px;*/
+  /*position: absolute;*/
+  /*right: 15px;*/
+  /*text-align: right;*/
+}
+
 .button {
   border-radius: 50%;
   height: 35px;
   vertical-align: middle;
   width: 35px;
+}
+
+.design-button {
+  border-radius: 50%;
+  height: 35px;
+  vertical-align: middle;
+  width: 35px;
+  margin-left: 12px;
 }
 
 .fb-button {
@@ -118,11 +137,21 @@ li {
   margin-left: 10px;
 }
 
-.invite-button {
-  height: 40px;
-  width: 135px;
+.social-button {
+  height: 50px;
+  width: 50px;
   margin-right: 10px;
   margin-left: 10px;
+}
+
+.invite {
+  display: inline;
+}
+
+.update {
+  text-align: justify;
+  margin-right: 70px;
+  margin-left: 70px;
 }
 
 #mce-EMAIL {
@@ -231,12 +260,6 @@ input[type=email]:valid + .signup-button {
     color: #464747;
   }
 
-  .sneakpeak {
-    font-size: 16px;
-    font-weight: bold;
-    margin-left: 0px;
-  }
-
   .invite {
     padding: 0px;
   }
@@ -250,40 +273,3 @@ input[type=email]:valid + .signup-button {
     vertical-align: bottom;
   }
 }
-/*
-@media only screen and (max-width: 1024px) {
-  .logo {
-    margin-top: 70px;
-    height: 50px;
-    width: 250px;
-  }
-
-  .tagline {
-    padding-top: 20px;
-    display: block;
-    height: 40px;
-    margin: auto;
-    width: 600px;
-  }
-
-  .whitebox {
-    background-color: #fff;
-    border: 1px solid #fff;
-    height: 450px;
-    margin: auto;
-    margin-top: 40px;
-    opacity: .85;
-    width: 600px;
-  }
-
-  .intro {
-    color: #000;
-    margin-top: 35px;
-  }
-
-  p {
-    font: 14px 'Gotham', sans-serif;
-    line-height: 150%;
-    color: #464747;
-  }
-}*/
