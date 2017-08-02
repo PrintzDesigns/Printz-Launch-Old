@@ -272,4 +272,24 @@ input[type=email]:valid + .signup-button {
     padding-left: 5px;
     vertical-align: bottom;
   }
+
+  .update {
+    text-align: justify;
+    /*margin-top: 20px;*/
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+
+  .thanks {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 60px;
+  }
+
+  .intro {
+    color: #464747;
+    margin-top: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
 }
